@@ -1,0 +1,77 @@
+.ideal {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+  }
+  
+  .heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .first {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #inputWord {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+    width: 250px;
+    margin: 15px;
+  }
+  
+  #findAnagramsButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #findAnagramsButton:hover {
+    background-color: #0056b3;
+  }
+  
+  #findAnagramsButton:active {
+    background-color: black;
+    color: white;
+  }
+  
+  #resultContainer {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #loadingMessage {
+    display: none; /* Initially hide the loading message */
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .wordItem {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  

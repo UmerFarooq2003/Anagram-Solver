@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anagrams Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="ideal">
+
+    <h1 class="heading">Anagrams Solver</h1>
+    <p class="first">Enter a word to find its anagrams that are actual words:</p>
+    <input type="text" id="inputWord" placeholder="Enter a word..." oninput="convertToUpperCase(this)">
+    <button id="findAnagramsButton" onclick="showAnagrams()">Find Anagrams</button>
+    <div id="loadingMessage">Checking your word...</div>
+    <div id="resultContainer"></div>
+  </div>
+
+
+</body>
+
+</html>
